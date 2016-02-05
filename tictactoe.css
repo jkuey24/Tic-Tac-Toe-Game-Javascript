@@ -1,7 +1,17 @@
+/*Changed the h1
+added a jumbotron
+deleted the col md 12
+changed color of board*/
+
+
 h1{
-  font-size: 100px;
-  font-family: fantasy;
-  text-align: center;
+  font-size: 150px;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;;
+  color: black;
+  font-weight: 500%;
+  margin-left: 300px;
+  font-style: bold;
 }
 
 .col-sm-5 {
@@ -9,13 +19,16 @@ h1{
   height:auto;
   align-content: center;
 
-
 }
 
-.col-md-12 {
+.jumbotron {
   align-content: center;
   text-align: center;
   height:auto;
+  width:auto;
+  background:url("http://www.safari-journeys.com/images/sfeerbeelden/Lion_on_plains.jpg") no-repeat center;
+  background-size: cover;
+  margin: 0pt;
 
 }
 
@@ -27,10 +40,16 @@ h1{
 
 h2{
   font-size: 65px;
-  font-family: fantasy;
-
+  font-family: 'Rock Salt', cursive;
+  font-weight: 100px;
+  color: black;
+  font-style: bold;
 }
 
+button{
+  font-family: 'Rock Salt', cursive;
+
+}
 
 body{
   background:url("Balloon_Safari_2012_06_01_3128_(7522677448).jpg") no-repeat center center fixed;
@@ -46,7 +65,8 @@ body{
 
 .box{
 
-  background-color: rgb(122, 219, 255);
+  background-color: rgba(9, 62, 117, 0.86);
+  opacity: 0.01%;
   border-radius: 25%;
   height: 160px;
   width: 160px;
